@@ -1,0 +1,78 @@
+{
+  "appName": "Sitemap Scanner",
+  "nav": {
+    "pricing": "Preise"
+  },
+  "hero": {
+    "title": "Visualisieren Sie Ihre Website-Struktur",
+    "subtitle": "Scannen Sie jede Website und sehen Sie sofort die Seitenhierarchie mit einem interaktiven, kraftgerichteten Graphen. Perfekt für SEO-Audits und Website-Architekturanalysen."
+  },
+  "form": {
+    "placeholder": "Website-URL eingeben (z.B. example.com)",
+    "scan": "Website scannen",
+    "scanning": "Scanne...",
+    "remaining": "{{count}} Scans heute verbleibend"
+  },
+  "errors": {
+    "scanFailed": "Website-Scan fehlgeschlagen. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
+  },
+  "stats": {
+    "pages": "Gefundene Seiten",
+    "links": "Gesamtlinks",
+    "broken": "Defekte Seiten",
+    "depth": "Max. Tiefe"
+  },
+  "legend": {
+    "root": "Startseite",
+    "depth1": "Tiefe 1",
+    "depth2": "Tiefe 2+",
+    "broken": "Defekt/Fehler"
+  },
+  "pageList": {
+    "title": "Gescannte Seiten",
+    "untitled": "Seite ohne Titel",
+    "links": "Links"
+  },
+  "features": {
+    "fast": {
+      "title": "Blitzschnell",
+      "desc": "Scannen Sie bis zu 50 Seiten in Sekunden mit unserem optimierten Crawler."
+    },
+    "visual": {
+      "title": "Interaktiver Graph",
+      "desc": "Erkunden Sie Ihre Website-Struktur mit einer schönen kraftgerichteten Visualisierung."
+    },
+    "safe": {
+      "title": "Sicher & Respektvoll",
+      "desc": "Wir respektieren robots.txt und begrenzen Anfragen, um ein guter Internet-Bürger zu sein."
+    }
+  },
+  "pricing": {
+    "title": "Einfache Preisgestaltung",
+    "subtitle": "Kostenlos starten, bei Bedarf upgraden",
+    "free": {
+      "name": "Kostenlos",
+      "feature1": "5 Scans pro Tag",
+      "feature2": "Bis zu 50 Seiten pro Scan",
+      "feature3": "Interaktive Graphansicht",
+      "cta": "Loslegen"
+    },
+    "starter": {
+      "name": "Starter-Paket",
+      "feature1": "50 Scans",
+      "feature2": "Bis zu 50 Seiten pro Scan",
+      "feature3": "Läuft nie ab",
+      "cta": "Jetzt kaufen"
+    },
+    "pro": {
+      "name": "Pro-Paket",
+      "feature1": "200 Scans",
+      "feature2": "Bis zu 50 Seiten pro Scan",
+      "feature3": "Prioritäts-Support",
+      "cta": "Jetzt kaufen"
+    }
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

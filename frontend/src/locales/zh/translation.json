@@ -1,0 +1,78 @@
+{
+  "appName": "站点地图扫描器",
+  "nav": {
+    "pricing": "定价"
+  },
+  "hero": {
+    "title": "可视化您的网站结构",
+    "subtitle": "扫描任何网站，通过交互式力导向图即时查看页面层次结构。非常适合SEO审计和网站架构分析。"
+  },
+  "form": {
+    "placeholder": "输入网站URL（如 example.com）",
+    "scan": "扫描网站",
+    "scanning": "扫描中...",
+    "remaining": "今日剩余 {{count}} 次扫描"
+  },
+  "errors": {
+    "scanFailed": "扫描网站失败，请检查URL后重试。"
+  },
+  "stats": {
+    "pages": "发现页面",
+    "links": "链接总数",
+    "broken": "损坏页面",
+    "depth": "最大深度"
+  },
+  "legend": {
+    "root": "根页面",
+    "depth1": "第一层",
+    "depth2": "第二层及以上",
+    "broken": "损坏/错误"
+  },
+  "pageList": {
+    "title": "已扫描页面",
+    "untitled": "无标题页面",
+    "links": "个链接"
+  },
+  "features": {
+    "fast": {
+      "title": "极速扫描",
+      "desc": "优化的爬虫引擎，数秒内扫描多达50个页面。"
+    },
+    "visual": {
+      "title": "交互式图表",
+      "desc": "通过精美的力导向可视化探索您的网站结构。"
+    },
+    "safe": {
+      "title": "安全且尊重规则",
+      "desc": "我们遵守robots.txt并限制请求速率，做一个好的网络公民。"
+    }
+  },
+  "pricing": {
+    "title": "简单定价",
+    "subtitle": "免费开始，按需升级",
+    "free": {
+      "name": "免费版",
+      "feature1": "每天5次扫描",
+      "feature2": "每次最多50页",
+      "feature3": "交互式图表视图",
+      "cta": "开始使用"
+    },
+    "starter": {
+      "name": "入门包",
+      "feature1": "50次扫描",
+      "feature2": "每次最多50页",
+      "feature3": "永不过期",
+      "cta": "立即购买"
+    },
+    "pro": {
+      "name": "专业包",
+      "feature1": "200次扫描",
+      "feature2": "每次最多50页",
+      "feature3": "优先支持",
+      "cta": "立即购买"
+    }
+  },
+  "footer": {
+    "rights": "保留所有权利。"
+  }
+}

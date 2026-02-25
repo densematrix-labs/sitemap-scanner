@@ -1,0 +1,78 @@
+{
+  "appName": "Sitemap Scanner",
+  "nav": {
+    "pricing": "Pricing"
+  },
+  "hero": {
+    "title": "Visualize Your Website Structure",
+    "subtitle": "Scan any website and instantly see its page hierarchy with an interactive force-directed graph. Perfect for SEO audits and site architecture analysis."
+  },
+  "form": {
+    "placeholder": "Enter website URL (e.g., example.com)",
+    "scan": "Scan Website",
+    "scanning": "Scanning...",
+    "remaining": "{{count}} scans remaining today"
+  },
+  "errors": {
+    "scanFailed": "Failed to scan website. Please check the URL and try again."
+  },
+  "stats": {
+    "pages": "Pages Found",
+    "links": "Total Links",
+    "broken": "Broken Pages",
+    "depth": "Max Depth"
+  },
+  "legend": {
+    "root": "Root Page",
+    "depth1": "Depth 1",
+    "depth2": "Depth 2+",
+    "broken": "Broken/Error"
+  },
+  "pageList": {
+    "title": "Scanned Pages",
+    "untitled": "Untitled Page",
+    "links": "links"
+  },
+  "features": {
+    "fast": {
+      "title": "Lightning Fast",
+      "desc": "Scan up to 50 pages in seconds with our optimized crawler."
+    },
+    "visual": {
+      "title": "Interactive Graph",
+      "desc": "Explore your site structure with a beautiful force-directed visualization."
+    },
+    "safe": {
+      "title": "Safe & Respectful",
+      "desc": "We respect robots.txt and rate limit requests to be a good internet citizen."
+    }
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "subtitle": "Start free, upgrade when you need more",
+    "free": {
+      "name": "Free",
+      "feature1": "5 scans per day",
+      "feature2": "Up to 50 pages per scan",
+      "feature3": "Interactive graph view",
+      "cta": "Get Started"
+    },
+    "starter": {
+      "name": "Starter Pack",
+      "feature1": "50 scans",
+      "feature2": "Up to 50 pages per scan",
+      "feature3": "Never expires",
+      "cta": "Buy Now"
+    },
+    "pro": {
+      "name": "Pro Pack",
+      "feature1": "200 scans",
+      "feature2": "Up to 50 pages per scan",
+      "feature3": "Priority support",
+      "cta": "Buy Now"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

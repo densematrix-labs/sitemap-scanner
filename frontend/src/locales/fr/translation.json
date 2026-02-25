@@ -1,0 +1,78 @@
+{
+  "appName": "Sitemap Scanner",
+  "nav": {
+    "pricing": "Tarifs"
+  },
+  "hero": {
+    "title": "Visualisez la Structure de Votre Site",
+    "subtitle": "Scannez n'importe quel site web et visualisez instantanément sa hiérarchie de pages avec un graphe interactif à force dirigée. Parfait pour les audits SEO et l'analyse d'architecture de site."
+  },
+  "form": {
+    "placeholder": "Entrez l'URL du site (ex: example.com)",
+    "scan": "Scanner le site",
+    "scanning": "Scan en cours...",
+    "remaining": "{{count}} scans restants aujourd'hui"
+  },
+  "errors": {
+    "scanFailed": "Échec du scan du site. Veuillez vérifier l'URL et réessayer."
+  },
+  "stats": {
+    "pages": "Pages trouvées",
+    "links": "Total des liens",
+    "broken": "Pages cassées",
+    "depth": "Profondeur max"
+  },
+  "legend": {
+    "root": "Page racine",
+    "depth1": "Profondeur 1",
+    "depth2": "Profondeur 2+",
+    "broken": "Cassée/Erreur"
+  },
+  "pageList": {
+    "title": "Pages scannées",
+    "untitled": "Page sans titre",
+    "links": "liens"
+  },
+  "features": {
+    "fast": {
+      "title": "Ultra rapide",
+      "desc": "Scannez jusqu'à 50 pages en quelques secondes avec notre crawler optimisé."
+    },
+    "visual": {
+      "title": "Graphe interactif",
+      "desc": "Explorez la structure de votre site avec une belle visualisation à force dirigée."
+    },
+    "safe": {
+      "title": "Sûr et respectueux",
+      "desc": "Nous respectons robots.txt et limitons les requêtes pour être un bon citoyen d'Internet."
+    }
+  },
+  "pricing": {
+    "title": "Tarification simple",
+    "subtitle": "Commencez gratuitement, évoluez selon vos besoins",
+    "free": {
+      "name": "Gratuit",
+      "feature1": "5 scans par jour",
+      "feature2": "Jusqu'à 50 pages par scan",
+      "feature3": "Vue graphique interactive",
+      "cta": "Commencer"
+    },
+    "starter": {
+      "name": "Pack Starter",
+      "feature1": "50 scans",
+      "feature2": "Jusqu'à 50 pages par scan",
+      "feature3": "N'expire jamais",
+      "cta": "Acheter"
+    },
+    "pro": {
+      "name": "Pack Pro",
+      "feature1": "200 scans",
+      "feature2": "Jusqu'à 50 pages par scan",
+      "feature3": "Support prioritaire",
+      "cta": "Acheter"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
+}

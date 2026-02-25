@@ -1,0 +1,78 @@
+{
+  "appName": "Sitemap Scanner",
+  "nav": {
+    "pricing": "Precios"
+  },
+  "hero": {
+    "title": "Visualiza la Estructura de Tu Sitio Web",
+    "subtitle": "Escanea cualquier sitio web y visualiza instantáneamente la jerarquía de páginas con un gráfico interactivo de fuerza dirigida. Perfecto para auditorías SEO y análisis de arquitectura de sitios."
+  },
+  "form": {
+    "placeholder": "Ingresa la URL del sitio (ej: example.com)",
+    "scan": "Escanear sitio",
+    "scanning": "Escaneando...",
+    "remaining": "{{count}} escaneos restantes hoy"
+  },
+  "errors": {
+    "scanFailed": "Error al escanear el sitio. Por favor verifica la URL e intenta de nuevo."
+  },
+  "stats": {
+    "pages": "Páginas encontradas",
+    "links": "Total de enlaces",
+    "broken": "Páginas rotas",
+    "depth": "Profundidad máx"
+  },
+  "legend": {
+    "root": "Página raíz",
+    "depth1": "Profundidad 1",
+    "depth2": "Profundidad 2+",
+    "broken": "Rota/Error"
+  },
+  "pageList": {
+    "title": "Páginas escaneadas",
+    "untitled": "Página sin título",
+    "links": "enlaces"
+  },
+  "features": {
+    "fast": {
+      "title": "Súper rápido",
+      "desc": "Escanea hasta 50 páginas en segundos con nuestro crawler optimizado."
+    },
+    "visual": {
+      "title": "Gráfico interactivo",
+      "desc": "Explora la estructura de tu sitio con una hermosa visualización de fuerza dirigida."
+    },
+    "safe": {
+      "title": "Seguro y respetuoso",
+      "desc": "Respetamos robots.txt y limitamos las solicitudes para ser buenos ciudadanos de Internet."
+    }
+  },
+  "pricing": {
+    "title": "Precios simples",
+    "subtitle": "Comienza gratis, actualiza cuando lo necesites",
+    "free": {
+      "name": "Gratis",
+      "feature1": "5 escaneos por día",
+      "feature2": "Hasta 50 páginas por escaneo",
+      "feature3": "Vista de gráfico interactivo",
+      "cta": "Comenzar"
+    },
+    "starter": {
+      "name": "Paquete Starter",
+      "feature1": "50 escaneos",
+      "feature2": "Hasta 50 páginas por escaneo",
+      "feature3": "Nunca expira",
+      "cta": "Comprar ahora"
+    },
+    "pro": {
+      "name": "Paquete Pro",
+      "feature1": "200 escaneos",
+      "feature2": "Hasta 50 páginas por escaneo",
+      "feature3": "Soporte prioritario",
+      "cta": "Comprar ahora"
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "appName": "사이트맵 스캐너",
+  "nav": {
+    "pricing": "가격"
+  },
+  "hero": {
+    "title": "웹사이트 구조 시각화",
+    "subtitle": "어떤 웹사이트든 스캔하고 인터랙티브 포스 다이렉티드 그래프로 페이지 계층 구조를 즉시 확인하세요. SEO 감사 및 사이트 아키텍처 분석에 완벽합니다."
+  },
+  "form": {
+    "placeholder": "웹사이트 URL 입력 (예: example.com)",
+    "scan": "웹사이트 스캔",
+    "scanning": "스캔 중...",
+    "remaining": "오늘 {{count}}회 스캔 가능"
+  },
+  "errors": {
+    "scanFailed": "웹사이트 스캔에 실패했습니다. URL을 확인하고 다시 시도해 주세요."
+  },
+  "stats": {
+    "pages": "발견된 페이지",
+    "links": "총 링크 수",
+    "broken": "깨진 페이지",
+    "depth": "최대 깊이"
+  },
+  "legend": {
+    "root": "루트 페이지",
+    "depth1": "깊이 1",
+    "depth2": "깊이 2 이상",
+    "broken": "깨짐/오류"
+  },
+  "pageList": {
+    "title": "스캔된 페이지",
+    "untitled": "제목 없는 페이지",
+    "links": "링크"
+  },
+  "features": {
+    "fast": {
+      "title": "초고속 스캔",
+      "desc": "최적화된 크롤러로 몇 초 만에 최대 50페이지를 스캔합니다."
+    },
+    "visual": {
+      "title": "인터랙티브 그래프",
+      "desc": "아름다운 포스 다이렉티드 시각화로 사이트 구조를 탐색하세요."
+    },
+    "safe": {
+      "title": "안전하고 정중한",
+      "desc": "robots.txt를 존중하고 요청을 제한하여 좋은 인터넷 시민이 됩니다."
+    }
+  },
+  "pricing": {
+    "title": "간단한 가격",
+    "subtitle": "무료로 시작하고, 필요할 때 업그레이드",
+    "free": {
+      "name": "무료",
+      "feature1": "하루 5회 스캔",
+      "feature2": "스캔당 최대 50페이지",
+      "feature3": "인터랙티브 그래프 보기",
+      "cta": "시작하기"
+    },
+    "starter": {
+      "name": "스타터 팩",
+      "feature1": "50회 스캔",
+      "feature2": "스캔당 최대 50페이지",
+      "feature3": "만료 없음",
+      "cta": "구매하기"
+    },
+    "pro": {
+      "name": "프로 팩",
+      "feature1": "200회 스캔",
+      "feature2": "스캔당 최대 50페이지",
+      "feature3": "우선 지원",
+      "cta": "구매하기"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

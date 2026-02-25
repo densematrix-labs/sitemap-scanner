@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "30180:80"
+    depends_on:
+      - backend
+    networks:
+      - sitemap-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  backend:
+    build: ./backend
+    ports:
+      - "30181:8000"
+    environment:
+      - DATABASE_URL=sqlite+aiosqlite:///./app.db
+      - TOOL_NAME=sitemap-scanner
+      - CREEM_API_KEY=${CREEM_API_KEY:-}
+      - CREEM_WEBHOOK_SECRET=${CREEM_WEBHOOK_SECRET:-}
+      - CREEM_PRODUCT_IDS=${CREEM_PRODUCT_IDS:-{}}
+    volumes:
+      - backend-data:/app/data
+    networks:
+      - sitemap-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+networks:
+  sitemap-network:
+    driver: bridge
+
+volumes:
+  backend-data:
